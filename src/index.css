@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-skinny: #eedecf;
+    --color-skinny-light: #fbf5ee;
+    --color-skinny-muted: #d4bda8;
+    --color-skinny-dark: #8c735d;
+    --color-royal-gold: #c5a880;
+    --color-royal-black: #0c0d0e;
+    --color-royal-dark: #161719;
+    --color-royal-white: #ffffff;
+    --color-royal-ivory: #faf7f2;
+  }
+
+  body {
+    background-color: #080809;
+    color: #eedecf;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow-x: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  /* Custom serif font for royal elegance */
+  .font-serif-royal {
+    font-family: 'Cinzel', serif;
+  }
+
+  .font-editorial {
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  .font-mono-tech {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom scrollbar for retro luxury feel */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(20, 20, 22, 0.6);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c5a880;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #eedecf;
+}
+
+/* Tactile subtle scanline and grain */
+.retro-screen-glare {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.08) 0%,
+    rgba(255, 255, 255, 0.01) 40%,
+    rgba(0, 0, 0, 0.25) 100%
+  );
+}
+
+.skinny-gradient {
+  background: linear-gradient(180deg, #f8f1e9 0%, #ecdccb 100%);
+}
+
+.royal-metallic {
+  background: linear-gradient(145deg, #1f2023 0%, #0d0e10 100%);
+}
+
+.royal-gold-text {
+  background: linear-gradient(135deg, #ffffff 0%, #ecdccb 50%, #c5a880 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

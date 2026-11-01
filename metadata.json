@@ -1,0 +1,9 @@
+{
+  "name": "Aethelgard Royal OS",
+  "description": "A bespoke Classic Royal retro mobile phone operating system in black, ivory white, and skinny champagne tones. Features an iPod-style click-wheel music player, distraction-free YouTube, Samsung Notes, Files, Gallery, WhatsApp, Google Gemini AI, vintage Camera, Horology Clock, Perpetual Calendar, Mechanical Calculator, ProLearner Academy, and a permanent 13th app slot.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
